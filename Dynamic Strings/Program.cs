@@ -32,7 +32,11 @@ namespace Dynamic_Strings
             sb.Replace("0", "x");
             Console.WriteLine(sb);
 
+            for (int i = 0; i < 16; i++)
+            {
+                Console.Write("{0:X}", i);
 
+            }
             Console.ReadKey();
         }
     }
